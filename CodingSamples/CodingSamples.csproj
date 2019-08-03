@@ -45,6 +45,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
@@ -57,6 +58,8 @@
   <ItemGroup>
     <Compile Include="ActiveDirectory.cs" />
     <Compile Include="AdGroupSearch.cs" />
+    <Compile Include="CacheBase.cs" />
+    <Compile Include="CacheUtility.cs" />
     <Compile Include="DataGridHelpers.cs" />
     <Compile Include="ListToDataTable.cs" />
     <Compile Include="OracleBulkCopy.cs" />
